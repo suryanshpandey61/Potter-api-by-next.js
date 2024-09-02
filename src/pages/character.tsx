@@ -33,7 +33,7 @@ const Character: React.FC = () => {
 
   return (
     <div className='character-div w-[100vw]  mb-[-20px] h-auto'>
-      <Link href='/'> Go To Home</Link>
+      <Link href='/'   className=' border-black px-3 text-white font-bold ml-8 border-[2px] rounded-md '> Go To Home</Link>
       <Link href="/character">
         
           <p className="text-3xl text-center font-bold pt-5 text-black">Characters In Harry Potter Series</p>
@@ -55,7 +55,7 @@ const Character: React.FC = () => {
                 width={250}
                 height={250}
               />
-              <p className='text-xl font-semibold text-sky-400'>{item.name}</p>
+              <p className='text-xl font-semibold text-slate-800'>{item.name}</p>
             </div>
           ))
         )}

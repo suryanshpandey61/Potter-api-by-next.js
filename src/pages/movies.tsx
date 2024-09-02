@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
-import '../../src/app/globals.css';
+import '../../src/app/globals.css'; 
 
 
  // typescript movie component me kiss trh ka data store hota
@@ -43,8 +43,8 @@ function Movie() {
   }, []);
 
   return (
-    <div className=' w-[100vw]  mb-[-20px] '>
-        <Link href="/">
+    <div className=' w-[100vw]  mb-[-20px] movie-div'>
+        <Link href="/"  className=' border-black px-3 text-white font-bold  ml-8 border-[2px] rounded-md '>
           Go to Home
         </Link>
       <Link href="/movies">

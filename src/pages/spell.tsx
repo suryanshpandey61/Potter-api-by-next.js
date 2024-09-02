@@ -34,7 +34,7 @@ const Spell: React.FC = () => {
 
   return (
     <div className='spell-div w-[100vw]  mb-[-20px] h-auto'>
-      <Link href="/">Go to home</Link>
+      <Link href="/"  className=' border-black px-3 text-slate-700 font-bold ml-8 border-[2px] rounded-md '>Go to home</Link>
       <Link href="/character">
         <p className="text-3xl font-bold pt-5 text-center">Powers Of All Characters</p>
       </Link>
